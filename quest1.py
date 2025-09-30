@@ -1,6 +1,8 @@
 #questao 4 da lista de estrutura de repetição
 #ss 1.2%
 #cz 1.5%
+#sousa
+#cajazeiras
 
 popcz = 70000
 popss = 80000
