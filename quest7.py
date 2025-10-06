@@ -1,3 +1,0 @@
-#dasdasdasdad
-
-print('aaaaaaa')
