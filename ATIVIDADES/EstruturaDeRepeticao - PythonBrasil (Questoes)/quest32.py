@@ -6,7 +6,9 @@
 num = int(input('digite um numero: '))
 fat = 1
 
+print(f'{num}! = ', end = '')
 for i in range (num, 1, -1):
     fat *= i
+    print(f'{i} . ', end = '')
 
-    print(fat)
+print(f'1 = {fat}')
