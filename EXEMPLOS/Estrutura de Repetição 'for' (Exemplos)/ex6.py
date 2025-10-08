@@ -1,7 +1,7 @@
 #mostre todos os numeros primos que o usuario definir (entre valor 1 e valor 2)
 
-val = int(input('digite um numero: '))
-val2 = int(input('digite outro numero: '))
+val = int(input('digite um numero: \n'))
+val2 = int(input('digite outro numero: \n'))
 
 for num in range (val, val2):
     qtde = 0
@@ -11,5 +11,6 @@ for num in range (val, val2):
             qtde += 1
 
     if qtde == 2:
-        print(num)
+        print(f'{num}')
+
 print(f'\nTodos estes valores entre {val} e {val2} são numeros primos.')
