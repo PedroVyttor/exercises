@@ -1,4 +1,4 @@
-alunos = [['Gilvan', 19],['Tales', 22]]
+alunos = [['Gabriel', 19],['Tales', 22]]
 
 alunos.append(['Maria', 18])
 
