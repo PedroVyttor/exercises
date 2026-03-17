@@ -6,7 +6,7 @@
 #leitura = 'r'
 
 arquivo = open('professores.txt', 'a')
-for i in range(5):
+for i in range(1):
     texto = input('Digite o nome do professor: ')
     arquivo.write(texto)
     arquivo.write('\n' + texto)
