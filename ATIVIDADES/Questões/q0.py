@@ -7,6 +7,7 @@ while True:
         '\n2- Subtrair'
         '\n3- Multiplicar'
         '\n4- Dividir'
+        '\n5- Raiz quadrada'
         '\n0- Sair')
 
     num = int(input('Selecione as opções: '))
@@ -37,6 +38,12 @@ while True:
 
         resultado = divi / divi2
         print(f'o resultado é: {resultado}')
+
+    elif num == 5:
+        raiz = int(input('Digite o valor: '))
+
+        resultado = raiz ** 2
+        print(f'O resultado é: {resultado}')
 
     elif num == 0:
         break
